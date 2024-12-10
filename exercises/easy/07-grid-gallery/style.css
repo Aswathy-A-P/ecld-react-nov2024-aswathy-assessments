@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  font-family: sans-serif;
+  text-align: center;
+  margin: 2rem;
+}
+.gallery-container {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(4, auto);
+  gap: 2.4rem;
+  width: 100%;
+}
+img {
+  height: 20rem;
+  width: 20rem;
+}
+@media (max-width: 580px) {
+  .gallery-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 1rem;
+    gap: 1rem;
+    width: 100%;
+  }
+  img {
+    height: 15rem;
+    width: 15rem;
+  }
+}

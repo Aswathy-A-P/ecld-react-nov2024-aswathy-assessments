@@ -15,16 +15,16 @@
   </head>
   <body>
     <div class="container">
-      <div class="header">
+      <header>
         <div class="left-nav">
           <div class="logo">GRC REGISTER</div>
           <div class="left-nav-icons">
             <i class="fa-solid fa-angle-left"></i>
-            <i class="fa-solid fa-bars"></i>
+            <i class="fa-solid fa-bars menu-icon"></i>
           </div>
         </div>
         <div class="right-nav">
-          <div class="search-box">
+          <div class="search-box-left-nav">
             <i class="fa fa-search"></i>
             <input type="text" placeholder="Search" />
           </div>
@@ -44,24 +44,30 @@
             </div>
           </div>
         </div>
-      </div>
+      </header>
       <div class="main-content">
         <aside class="sidebar">
           <ul>
-            <li>Dashboard</li>
+            <li>
+              <i class="fa-regular fa-envelope-open"></i>
+            </i>
+              <p>Dashboard</p>
+            </li>
 
-            <li>Modules</li>
+            <li><i class="fa-solid fa-table-cells"></i><p>Modules</p></li>
 
-            <li class="active">Questions Library</li>
-            <li>Loss Events & Issue Management</li>
-            <li>New Product Approval</li>
-            <li>Third Party Management</li>
-            <li>Business Risk Self Assesment</li>
-            <li>User Acces Request</li>
+            <li class="active">
+              <i class="fa-regular fa-user"></i>
+              <p>Loss Events & Issue Management</p>
+            </li>
+            <li><i class="fa-solid fa-border-none"></i><p>New Product Approval</p></li>
+            <li><i class="fa-regular fa-circle"></i><p>Third Party Management</p></li>
+            <li><i class="fa-regular fa-file-lines"></i><p>Business Risk Self Assesment</p></li>
+            <li><i class="fa-regular fa-star"></i><p>User Acces Request</p></li>
           </ul>
         </aside>
 
-        <div class="contents">
+        <section class="contents">
           <div class="primary-headding">
             <h1>Loss Events & Issue Management</h1>
           </div>
@@ -122,8 +128,10 @@
               </tbody>
             </table>
           </div>
-        </div>
+        </section>
       </div>
     </div>
+
+    
   </body>
 </html>
